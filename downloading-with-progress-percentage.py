@@ -26,3 +26,8 @@ s3.download_file(
     "dheerajnew", "S2_Marina.csv", "tmp.csv",
     Callback=ProgressPercentage("tmp.csv"))
 print("Downloading done!!!@")
+
+#OUTPUT
+"""
+tmp.csv --> 9555 bytes transferredDownloading done!!!@
+"""
